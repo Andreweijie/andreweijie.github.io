@@ -1,14 +1,9 @@
 $(document).ready(function () {
-    $("#submit").click(function () {
-        var searchInput = $("#searchInput").val();
-        var url = generateUrl(searchInput);
-        wikiSearch(url);
-        
-    });
-
     $("#searchInput").keypress(function (e) {
         if (e.which == 13) {
-            $("#submit").click();
+            var searchInput = $("#searchInput").val();
+            var url = generateUrl(searchInput);
+            wikiSearch(url);
         }
     });
     /*
@@ -34,11 +29,15 @@ $(document).ready(function () {
     }
 
     function displayResults(results) {
+      if (results[1].length == 0){
+        $(".resultsBox").append("<h4 class='error text-center'>-Sorry, no results were found!-</h4>");
+      }
         $(".resultsBox").toggleClass("resultsBox-active");
         for (i = 0; i < results[1].length; i++) {
             $(".resultsBox").append("<h3>" + results[1][i] + "</h3>");
             $(".resultsBox").append("<p>" + results[2][i] + "</p>");
             $(".resultsBox").append("<a target='#' href='" + results[3][i] + "'>Read More</a>");
+            $(".resultsBox").append("<hr>");
         }
     }
 
@@ -48,5 +47,3 @@ $(document).ready(function () {
         });
     }
 });
-
-
