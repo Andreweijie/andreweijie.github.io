@@ -49,11 +49,6 @@ p {
   font-family:Arvo;
 }
 
-.jumbotron {
-  background:url("");
-  color:white;
-  margin-top:5%;
-}
 
 .thumbnail {
   background-color:transparent;
@@ -82,14 +77,6 @@ p {
   color:white;
 }
 
-footer {
-  color:white;
-}
-
-footer .container span {
-  
-}
-
 .about {
   height:850px;
 }
@@ -98,23 +85,21 @@ footer .container span {
   height:850px;
 }
 
-
-.form-control {
-  background:transparent;
-	border-radius: 0;
-	border-color: #ccc;
-  border-width: 0 0 2px 0;
-  border-style: none none solid none;
-  box-shadow: none;
-}
-.form-control:focus {
+#input:focus {
 	box-shadow: none;
 	border-color: white;
   color:white;
 }
 
-.btn {
+#btn {
   background:white;
   color:blue;
   font-size:2em;
+}
+
+#input {
+  background: transparent;
+    border-style: none none solid none;
+    border-width: 0 0 2px 0;
+    box-shadow: none;
 }

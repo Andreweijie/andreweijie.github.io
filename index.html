@@ -31,7 +31,7 @@
 </head>
 
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" style="color:white">
   <nav id="navcolor" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -44,7 +44,7 @@
        </ul>
     </div>
   </nav>
-  <div id="1" class="jumbotron">
+  <div id="1" class="jumbotron" style="background:transparent">
   <div class="container-fluid about">
     <div class="row text-center">
       <img id="profile" src="https://scontent.fsin1-1.fna.fbcdn.net/v/t1.0-9/13466223_1334264446601688_1717077517571295417_n.jpg?oh=afa285c0c73e02b0660c3826312f2bac&oe=5989FBE7">
@@ -56,31 +56,31 @@
   </div>
   </div>
   <div id="2" class="container work">
-
+      <a target="_blank" href="https://andreweijie.github.io/wikimini">WikiMini</a>
   </div>
-  <div id="3" class="jumbotron foot">
+  <div id="3" class="jumbotron foot" style="background:transparent">
     <div class="container">
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
         <h1 class="text-center">Contact Me</h1><hr><br>
         <form id="contact-form" class="form" action="#" method="POST" role="form">
-              <div class="form-group">
+              <div class="form-group" style="">
                   <label class="form-label" for="name">Your Name</label>
-                  <input type="text" class="form-control" id="name" name="name" tabindex="1" required>
+                  <input id="input" type="text" class="form-control" id="name" name="name" tabindex="1" required>
               </div>                            
               <div class="form-group">
                   <label class="form-label" for="email">Your Email</label>
-                  <input type="email" class="form-control" id="email" name="email" tabindex="2" required>
+                  <input id="input" type="email" class="form-control" id="email" name="email" tabindex="2" required>
               </div>                            
               <div class="form-group">
                   <label class="form-label" for="subject">Subject</label>
-                  <input type="text" class="form-control" id="subject" name="subject" tabindex="3">
+                  <input id="input" type="text" class="form-control" id="subject" name="subject" tabindex="3">
               </div>                            
               <div class="form-group">
                   <label class="form-label" for="message">Message</label>
-                  <textarea rows="5" cols="50" name="message" class="form-control" id="message" tabindex="4" required></textarea>                                 
+                  <textarea rows="5" cols="50" name="message" class="form-control" id="input" tabindex="4" required></textarea>                                 
               </div>
               <div class="text-center">
-                  <button type="submit" class="btn btn-start-order">Send Message</button>
+                  <button id="btn" type="submit" class="btn btn-start-order">Send Message</button>
               </div>
           </form>
       </div>
