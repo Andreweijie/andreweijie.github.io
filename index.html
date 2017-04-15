@@ -6,7 +6,7 @@
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Wiki Mini</title>
+    <title>Andreweijie's Page</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -16,50 +16,89 @@
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600|Source+Sans+Pro" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600,thin|Source+Sans+Pro|Arvo|Lato" rel="stylesheet" type="text/css">
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link type="text/css" rel="stylesheet" href="wiki.css">
-    <script src="jquery-3.1.1.min.js"></script>
-    <script src="wiki.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="portfolio.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 
-<body>
 
-    <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-     <div class="container">
-    <div class="row">
-      <div class="10 column" style="margin-top: 25%">
-        <h1 id="name">Wiki Mini <span>Designed by Andreweijie.</span></h1>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav id="navcolor" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a id="brand" class="navbar-brand" href="#">Andre<span>weijie</span></a>
       </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a id="li1" href="#1">About</a></li>
+        <li><a id="li2" href="#2">Works</a></li>
+        <li><a id="li3" href="#3">Contact</a></li>
+       </ul>
     </div>
-    <div class="row">
-      
-    </div>
-    <div class="row">
-        <div>
-            <input class="u-full-width" type="search" placeholder="Search Wikipedia..." id="searchInput">
-        </div>
-        <div class="resultsBox">   
-        </div>
-    </div>
-        <a class="button random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random</a>
+  </nav>
+  <div id="1" class="jumbotron">
+  <div class="container-fluid about">
+    <div class="row text-center">
+      <img id="profile" src="https://scontent.fsin1-1.fna.fbcdn.net/v/t1.0-9/13466223_1334264446601688_1717077517571295417_n.jpg?oh=afa285c0c73e02b0660c3826312f2bac&oe=5989FBE7">
+    </div><br><br>
+    <div class="row text-center">
+      <h1>About Me</h1><hr>
+      <p>Amateur web developer based in Singapore hoping to create more than just web apps in the future. Mobile apps and desktop software are my dream. Enjoys basketball and pool in my free time.</p>
     </div>
   </div>
-    <div>
-    </div>
+  </div>
+  <div id="2" class="container work">
 
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </div>
+  <div id="3" class="jumbotron foot">
+    <div class="container">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+        <h1 class="text-center">Contact Me</h1><hr><br>
+        <form id="contact-form" class="form" action="#" method="POST" role="form">
+              <div class="form-group">
+                  <label class="form-label" for="name">Your Name</label>
+                  <input type="text" class="form-control" id="name" name="name" tabindex="1" required>
+              </div>                            
+              <div class="form-group">
+                  <label class="form-label" for="email">Your Email</label>
+                  <input type="email" class="form-control" id="email" name="email" tabindex="2" required>
+              </div>                            
+              <div class="form-group">
+                  <label class="form-label" for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" tabindex="3">
+              </div>                            
+              <div class="form-group">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea rows="5" cols="50" name="message" class="form-control" id="message" tabindex="4" required></textarea>                                 
+              </div>
+              <div class="text-center">
+                  <button type="submit" class="btn btn-start-order">Send Message</button>
+              </div>
+          </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="container-fluid">
+          <a target="_blank" href="https://www.facebook.com/andre.weijie"><span class="fa fa-facebook"></span></a>
+          <a target="_blank" href="https://www.twitter.com/andreweijie"><span class="fa fa-twitter"></span></a>
+          <a target="_blank" href="https://www.instagram.com/andreweijie"><span class="fa fa-instagram"></span></a>
+          <a target="_blank" href="https://www.facebook.com/andre.weijie"><span class="fa fa-linkedin"></span></a>
+          <a target="_blank" href="https://www.github.com/andreweijie"><span class="fa fa-github"></span></a>
+        </div>
+      <p class="text-center">Written and Designed by <span>Andreweijie</span></p>
+    </div>
+  </footer>
 </body>
+
 
 </html>
