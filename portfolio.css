@@ -49,15 +49,8 @@ p {
   font-family:Arvo;
 }
 
-
-.thumbnail {
-  background-color:transparent;
-  border: transparent;
-}
-
-.thumbnail.grey {
-  background-color:transparent;
-  float:right;
+.row p {
+    padding:5px;
 }
 
 .caption.text-center{
