@@ -22,8 +22,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link type="text/css" rel="stylesheet" href="portfolio.css">
-    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="scrolling-nav.css">
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery.easing.min.js"></script>
+    <script src="scrolling-nav.js"></script>
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -31,20 +36,20 @@
 </head>
 
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50" style="color:white">
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="50" style="color:white">
   <nav id="navcolor" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <a id="brand" class="navbar-brand" href="#">Andre<span>weijie</span></a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a id="li1" href="#1">About</a></li>
-        <li><a id="li2" href="#2">Works</a></li>
-        <li><a id="li3" href="#3">Contact</a></li>
+        <li><a id="li1" href="#about" class="page-scroll">About</a></li>
+        <li><a id="li2" href="#works" class="page-scroll">Works</a></li>
+        <li><a id="li3" href="#contacts" class="page-scroll">Contact</a></li>
        </ul>
     </div>
   </nav>
-  <div id="1" class="jumbotron" style="background:transparent">
+  <div id="about" class="jumbotron" style="background:transparent">
   <div class="container-fluid about">
     <div class="row text-center">
       <img id="profile" src="https://scontent.fsin1-1.fna.fbcdn.net/v/t1.0-9/13466223_1334264446601688_1717077517571295417_n.jpg?oh=afa285c0c73e02b0660c3826312f2bac&oe=5989FBE7">
@@ -55,10 +60,10 @@
     </div>
   </div>
   </div>
-  <div id="2" class="container work">
+  <div id="works" class="container work">
       <a target="_blank" href="https://andreweijie.github.io/wikimini">WikiMini</a>
   </div>
-  <div id="3" class="jumbotron foot" style="background:transparent">
+  <div id="contacts" class="jumbotron foot" style="background:transparent">
     <div class="container">
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
         <h1 class="text-center">Contact Me</h1><hr><br>
