@@ -3,9 +3,10 @@ body {
 }
 
 #brand {
-  font-family:Impact;
-  font-size:25px;
+  font-family:Nunito;
+  font-size:55px;
   color:white;
+  padding-top: 20px;
 }
 
 #brand span {
@@ -19,7 +20,8 @@ body {
 }
 #li1 {
   color:white;
-  font-family:Century Gothic;
+  font-family:Arvo;
+  font-size: 20px;
 }
 
 .about {
@@ -30,11 +32,13 @@ body {
 
 #li2 {
   color:white;
-  font-family:Century Gothic;
+  font-family:Arvo;
+  font-size: 20px;
 }
 #li3 {
   color:white;
-  font-family:Century Gothic;
+  font-family:Arvo;
+  font-size: 20px;
 }
 
 #profile {
@@ -42,15 +46,17 @@ body {
   border-radius:50%;
   border:solid 5px white;
 }
-h1 {
-  font-family:Lato;
+.about h1 {
+  font-family:Nunito;
 }
-p {
-  font-family:Arvo;
+
+#contacts h1 {
+  font-family: Nunito
 }
 
 .row p {
     padding:5px;
+    font-family:Arvo;
 }
 
 .caption.text-center{
@@ -88,11 +94,13 @@ p {
   background:white;
   color:blue;
   font-size:2em;
+  font-family: Raleway
 }
 
 #input {
   background: transparent;
     border-style: none none solid none;
+    border-radius: 0px;
     border-width: 0 0 2px 0;
     box-shadow: none;
 }
