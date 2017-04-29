@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom right, red, blue) fixed;
+  background: linear-gradient(#dd3162, blue) fixed;
 }
 
 #brand {
