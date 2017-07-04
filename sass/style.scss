@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(#dd3162, blue) fixed;
+}
+
+#brand {
+  font-family:Nunito;
+  font-size:55px;
+  color:white;
+  padding-top: 20px;
+}
+
+#brand span {
+  color:grey;
+}
+
+#navcolor {
+  background-color:transparent;
+  border:0px;
+  border-radius:0;
+  position: absolute;
+}
+#li1 {
+  color:white;
+  font-family:Arvo;
+  font-size: 20px;
+}
+
+.about {
+  margin-top:100px;
+  padding:20px;
+  color:white;
+}
+
+#li2 {
+  color:white;
+  font-family:Arvo;
+  font-size: 20px;
+}
+#li3 {
+  color:white;
+  font-family:Arvo;
+  font-size: 20px;
+}
+
+#profile {
+  height:300px;
+  border-radius:50%;
+  border:solid 5px white;
+}
+.about h1 {
+  font-family:Nunito;
+}
+
+#contacts h1 {
+  font-family: Nunito
+}
+
+.row p {
+    padding:5px;
+    font-family:Arvo;
+}
+
+.caption.text-center{
+  background-color:white;
+  font-family:Arvo;
+}
+
+.jumbotron.foot {
+  height:100vh;
+}
+
+.fa {
+  font-size:50px;
+  margin-top:35px;
+  margin-left:30px;
+  float:right;
+  color:white;
+}
+
+.about {
+  height:100vh;
+}
+
+.work {
+  height:100vh;
+  border: solid 2px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.work div {
+    height: 300px;
+    background-color:aliceblue;
+}
+
+#input:focus {
+	box-shadow: none;
+	border-color: white;
+  color:white;
+}
+
+#btn {
+  background:white;
+  color:blue;
+  font-size:2em;
+  font-family: Raleway
+}
+
+#input {
+  background: transparent;
+    border-style: none none solid none;
+    border-radius: 0px;
+    border-width: 0 0 2px 0;
+    box-shadow: none;
+}
